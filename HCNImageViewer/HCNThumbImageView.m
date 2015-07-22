@@ -1,19 +1,19 @@
 //
-//  HCNImagePreviewer.m
+//  HCNThumbImageView.m
 //  wolaila
 //
 //  Created by Nick Hu on 14/12/12.
 //  Copyright (c) 2014年 Sudiyi. All rights reserved.
 //
 
-#import "HCNImagePreviewer.h"
+#import "HCNThumbImageView.h"
 #import "HCNImageViewer.h"
 #import <UIImageView+AFNetworking.h>
 
-@interface HCNImagePreviewer () <HCNImageViewerDelegate>
+@interface HCNThumbImageView () <HCNImageViewerDelegate>
 @end
 
-@implementation HCNImagePreviewer
+@implementation HCNThumbImageView
 @synthesize thumbImageUri = _thumbImageUri;
 
 - (id)initWithCoder:(NSCoder*)decoder {

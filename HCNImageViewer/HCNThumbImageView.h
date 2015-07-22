@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "HCNImageViewer.h"
-@class HCNImagePreviewer;
-@protocol HCNImagePreviewerDelegate <NSObject>
+@class HCNThumbImageView;
+@protocol HCNThumbImageViewDelegate <NSObject>
 
 @required
-- (void)imagePreviewerWillShowPhotoView:(HCNImagePreviewer *)previewer;
+- (void)imagePreviewerWillShowPhotoView:(HCNThumbImageView *)previewer;
 
 @end
 
-@interface HCNImagePreviewer : UIImageView
-@property (nonatomic, weak) id<HCNImagePreviewerDelegate> delegate;
+@interface HCNThumbImageView : UIImageView
+@property (nonatomic, weak) id<HCNThumbImageViewDelegate> delegate;
 @property (nonatomic, strong) NSString *thumbImageUri;
 @property (nonatomic, strong) NSString *originImageUri;//default is thumbImageUri
 @property (nonatomic, strong, readonly) HCNImageViewer *photoViewer;
