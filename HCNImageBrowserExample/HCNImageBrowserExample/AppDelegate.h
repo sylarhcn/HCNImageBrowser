@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  HCNImageViewerExample
+//  HCNImageBrowserExample
 //
-//  Created by Nick Hu on 15/7/21.
+//  Created by Nick Hu on 15/8/4.
 //  Copyright (c) 2015年 HCN. All rights reserved.
 //
 

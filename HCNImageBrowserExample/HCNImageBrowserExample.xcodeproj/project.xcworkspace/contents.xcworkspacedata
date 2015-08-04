@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HCNImageViewerExample.xcodeproj">
+      location = "self:HCNImageBrowserExample.xcodeproj">
    </FileRef>
 </Workspace>

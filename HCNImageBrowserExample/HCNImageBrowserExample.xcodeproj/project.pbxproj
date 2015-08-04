@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0128E3391B71187500EE181A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E3381B71187500EE181A /* main.m */; };
+		0128E33C1B71187500EE181A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E33B1B71187500EE181A /* AppDelegate.m */; };
+		0128E33F1B71187500EE181A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E33E1B71187500EE181A /* ViewController.m */; };
+		0128E3421B71187500EE181A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128E3401B71187500EE181A /* Main.storyboard */; };
+		0128E3441B71187500EE181A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0128E3431B71187500EE181A /* Images.xcassets */; };
+		0128E3471B71187500EE181A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0128E3451B71187500EE181A /* LaunchScreen.xib */; };
+		0128E3531B71187600EE181A /* HCNImageBrowserExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E3521B71187600EE181A /* HCNImageBrowserExampleTests.m */; };
+		0128E3611B7118A900EE181A /* HCNImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E35E1B7118A900EE181A /* HCNImageContainer.m */; };
+		0128E3621B7118A900EE181A /* HCNPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E3601B7118A900EE181A /* HCNPhotoView.m */; };
+		473A01F9F0710A366A6EBED5 /* libPods-HCNImageBrowserExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74EEBE2C33F4D13C1BD687 /* libPods-HCNImageBrowserExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0128E34D1B71187600EE181A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0128E32B1B71187500EE181A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0128E3321B71187500EE181A;
+			remoteInfo = HCNImageBrowserExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0128E3331B71187500EE181A /* HCNImageBrowserExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCNImageBrowserExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0128E3371B71187500EE181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0128E3381B71187500EE181A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0128E33A1B71187500EE181A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0128E33B1B71187500EE181A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0128E33D1B71187500EE181A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0128E33E1B71187500EE181A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0128E3411B71187500EE181A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0128E3431B71187500EE181A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0128E3461B71187500EE181A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0128E34C1B71187600EE181A /* HCNImageBrowserExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCNImageBrowserExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0128E3511B71187600EE181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0128E3521B71187600EE181A /* HCNImageBrowserExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCNImageBrowserExampleTests.m; sourceTree = "<group>"; };
+		0128E35D1B7118A900EE181A /* HCNImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNImageContainer.h; sourceTree = "<group>"; };
+		0128E35E1B7118A900EE181A /* HCNImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNImageContainer.m; sourceTree = "<group>"; };
+		0128E35F1B7118A900EE181A /* HCNPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNPhotoView.h; sourceTree = "<group>"; };
+		0128E3601B7118A900EE181A /* HCNPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNPhotoView.m; sourceTree = "<group>"; };
+		0E02EDA0CBE9929BF6EEBE2D /* Pods-HCNImageBrowserExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCNImageBrowserExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCNImageBrowserExample/Pods-HCNImageBrowserExample.release.xcconfig"; sourceTree = "<group>"; };
+		9702B2721A47BCC627B80547 /* Pods-HCNImageBrowserExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCNImageBrowserExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCNImageBrowserExample/Pods-HCNImageBrowserExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CE74EEBE2C33F4D13C1BD687 /* libPods-HCNImageBrowserExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCNImageBrowserExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0128E3301B71187500EE181A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473A01F9F0710A366A6EBED5 /* libPods-HCNImageBrowserExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E3491B71187600EE181A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0128E32A1B71187500EE181A = {
+			isa = PBXGroup;
+			children = (
+				0128E3351B71187500EE181A /* HCNImageBrowserExample */,
+				0128E34F1B71187600EE181A /* HCNImageBrowserExampleTests */,
+				0128E3341B71187500EE181A /* Products */,
+				5058558D959B124F8EB11753 /* Pods */,
+				B8FB68FD99457BB1209670E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0128E3341B71187500EE181A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0128E3331B71187500EE181A /* HCNImageBrowserExample.app */,
+				0128E34C1B71187600EE181A /* HCNImageBrowserExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0128E3351B71187500EE181A /* HCNImageBrowserExample */ = {
+			isa = PBXGroup;
+			children = (
+				0128E35C1B7118A900EE181A /* HCNImageBrowser */,
+				0128E33A1B71187500EE181A /* AppDelegate.h */,
+				0128E33B1B71187500EE181A /* AppDelegate.m */,
+				0128E33D1B71187500EE181A /* ViewController.h */,
+				0128E33E1B71187500EE181A /* ViewController.m */,
+				0128E3401B71187500EE181A /* Main.storyboard */,
+				0128E3431B71187500EE181A /* Images.xcassets */,
+				0128E3451B71187500EE181A /* LaunchScreen.xib */,
+				0128E3361B71187500EE181A /* Supporting Files */,
+			);
+			path = HCNImageBrowserExample;
+			sourceTree = "<group>";
+		};
+		0128E3361B71187500EE181A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0128E3371B71187500EE181A /* Info.plist */,
+				0128E3381B71187500EE181A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0128E34F1B71187600EE181A /* HCNImageBrowserExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0128E3521B71187600EE181A /* HCNImageBrowserExampleTests.m */,
+				0128E3501B71187600EE181A /* Supporting Files */,
+			);
+			path = HCNImageBrowserExampleTests;
+			sourceTree = "<group>";
+		};
+		0128E3501B71187600EE181A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0128E3511B71187600EE181A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0128E35C1B7118A900EE181A /* HCNImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0128E35D1B7118A900EE181A /* HCNImageContainer.h */,
+				0128E35E1B7118A900EE181A /* HCNImageContainer.m */,
+				0128E35F1B7118A900EE181A /* HCNPhotoView.h */,
+				0128E3601B7118A900EE181A /* HCNPhotoView.m */,
+			);
+			name = HCNImageBrowser;
+			path = ../../HCNImageBrowser;
+			sourceTree = "<group>";
+		};
+		5058558D959B124F8EB11753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9702B2721A47BCC627B80547 /* Pods-HCNImageBrowserExample.debug.xcconfig */,
+				0E02EDA0CBE9929BF6EEBE2D /* Pods-HCNImageBrowserExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8FB68FD99457BB1209670E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE74EEBE2C33F4D13C1BD687 /* libPods-HCNImageBrowserExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0128E3321B71187500EE181A /* HCNImageBrowserExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0128E3561B71187600EE181A /* Build configuration list for PBXNativeTarget "HCNImageBrowserExample" */;
+			buildPhases = (
+				EFBE357420187EA3AFB693AC /* Check Pods Manifest.lock */,
+				0128E32F1B71187500EE181A /* Sources */,
+				0128E3301B71187500EE181A /* Frameworks */,
+				0128E3311B71187500EE181A /* Resources */,
+				C3B3C45AB7ABA65B829A4B5C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCNImageBrowserExample;
+			productName = HCNImageBrowserExample;
+			productReference = 0128E3331B71187500EE181A /* HCNImageBrowserExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0128E34B1B71187600EE181A /* HCNImageBrowserExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0128E3591B71187600EE181A /* Build configuration list for PBXNativeTarget "HCNImageBrowserExampleTests" */;
+			buildPhases = (
+				0128E3481B71187600EE181A /* Sources */,
+				0128E3491B71187600EE181A /* Frameworks */,
+				0128E34A1B71187600EE181A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0128E34E1B71187600EE181A /* PBXTargetDependency */,
+			);
+			name = HCNImageBrowserExampleTests;
+			productName = HCNImageBrowserExampleTests;
+			productReference = 0128E34C1B71187600EE181A /* HCNImageBrowserExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0128E32B1B71187500EE181A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = HCN;
+				TargetAttributes = {
+					0128E3321B71187500EE181A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0128E34B1B71187600EE181A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0128E3321B71187500EE181A;
+					};
+				};
+			};
+			buildConfigurationList = 0128E32E1B71187500EE181A /* Build configuration list for PBXProject "HCNImageBrowserExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0128E32A1B71187500EE181A;
+			productRefGroup = 0128E3341B71187500EE181A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0128E3321B71187500EE181A /* HCNImageBrowserExample */,
+				0128E34B1B71187600EE181A /* HCNImageBrowserExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0128E3311B71187500EE181A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E3421B71187500EE181A /* Main.storyboard in Resources */,
+				0128E3471B71187500EE181A /* LaunchScreen.xib in Resources */,
+				0128E3441B71187500EE181A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E34A1B71187600EE181A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3B3C45AB7ABA65B829A4B5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCNImageBrowserExample/Pods-HCNImageBrowserExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBE357420187EA3AFB693AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0128E32F1B71187500EE181A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E3621B7118A900EE181A /* HCNPhotoView.m in Sources */,
+				0128E33F1B71187500EE181A /* ViewController.m in Sources */,
+				0128E3611B7118A900EE181A /* HCNImageContainer.m in Sources */,
+				0128E33C1B71187500EE181A /* AppDelegate.m in Sources */,
+				0128E3391B71187500EE181A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E3481B71187600EE181A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E3531B71187600EE181A /* HCNImageBrowserExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0128E34E1B71187600EE181A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0128E3321B71187500EE181A /* HCNImageBrowserExample */;
+			targetProxy = 0128E34D1B71187600EE181A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0128E3401B71187500EE181A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0128E3411B71187500EE181A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0128E3451B71187500EE181A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0128E3461B71187500EE181A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0128E3541B71187600EE181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0128E3551B71187600EE181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0128E3571B71187600EE181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9702B2721A47BCC627B80547 /* Pods-HCNImageBrowserExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCNImageBrowserExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0128E3581B71187600EE181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E02EDA0CBE9929BF6EEBE2D /* Pods-HCNImageBrowserExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCNImageBrowserExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0128E35A1B71187600EE181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCNImageBrowserExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCNImageBrowserExample.app/HCNImageBrowserExample";
+			};
+			name = Debug;
+		};
+		0128E35B1B71187600EE181A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCNImageBrowserExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCNImageBrowserExample.app/HCNImageBrowserExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0128E32E1B71187500EE181A /* Build configuration list for PBXProject "HCNImageBrowserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E3541B71187600EE181A /* Debug */,
+				0128E3551B71187600EE181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0128E3561B71187600EE181A /* Build configuration list for PBXNativeTarget "HCNImageBrowserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E3571B71187600EE181A /* Debug */,
+				0128E3581B71187600EE181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0128E3591B71187600EE181A /* Build configuration list for PBXNativeTarget "HCNImageBrowserExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E35A1B71187600EE181A /* Debug */,
+				0128E35B1B71187600EE181A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0128E32B1B71187500EE181A /* Project object */;
+}

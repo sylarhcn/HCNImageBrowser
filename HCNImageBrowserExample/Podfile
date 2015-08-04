@@ -1,12 +1,12 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '6.0'
 
-target 'HCNImageViewerExample' do
+target 'HCNImageBrowserExample' do
 pod 'SDWebImage'
 pod 'SVProgressHUD'
 end
 
-target 'HCNImageViewerExampleTests' do
+target 'HCNImageBrowserExampleTests' do
 
 end
 

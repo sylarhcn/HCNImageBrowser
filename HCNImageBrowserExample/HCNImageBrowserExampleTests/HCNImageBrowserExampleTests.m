@@ -1,19 +1,19 @@
 //
-//  HCNImageViewerExampleTests.m
-//  HCNImageViewerExampleTests
+//  HCNImageBrowserExampleTests.m
+//  HCNImageBrowserExampleTests
 //
-//  Created by Nick Hu on 15/7/21.
+//  Created by Nick Hu on 15/8/4.
 //  Copyright (c) 2015年 HCN. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface HCNImageViewerExampleTests : XCTestCase
+@interface HCNImageBrowserExampleTests : XCTestCase
 
 @end
 
-@implementation HCNImageViewerExampleTests
+@implementation HCNImageBrowserExampleTests
 
 - (void)setUp {
     [super setUp];
