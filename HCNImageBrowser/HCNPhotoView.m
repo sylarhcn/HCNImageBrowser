@@ -8,7 +8,7 @@
 
 #import "HCNPhotoView.h"
 //#import "NSString+Addition.h"
-//#import "UIImage+Addition.h"
+#import "UIImage+Addition.h"
 #import "HCNImageContainer.h"
 //#import "DCFunctions.h"
 

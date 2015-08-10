@@ -16,6 +16,7 @@
 		0128E3531B71187600EE181A /* HCNImageBrowserExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E3521B71187600EE181A /* HCNImageBrowserExampleTests.m */; };
 		0128E3611B7118A900EE181A /* HCNImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E35E1B7118A900EE181A /* HCNImageContainer.m */; };
 		0128E3621B7118A900EE181A /* HCNPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E3601B7118A900EE181A /* HCNPhotoView.m */; };
+		014A92841B78F7570072E883 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A92831B78F7570072E883 /* UIImage+Addition.m */; };
 		473A01F9F0710A366A6EBED5 /* libPods-HCNImageBrowserExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74EEBE2C33F4D13C1BD687 /* libPods-HCNImageBrowserExample.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		0128E35E1B7118A900EE181A /* HCNImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNImageContainer.m; sourceTree = "<group>"; };
 		0128E35F1B7118A900EE181A /* HCNPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNPhotoView.h; sourceTree = "<group>"; };
 		0128E3601B7118A900EE181A /* HCNPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNPhotoView.m; sourceTree = "<group>"; };
+		014A92821B78F7570072E883 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
+		014A92831B78F7570072E883 /* UIImage+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
 		0E02EDA0CBE9929BF6EEBE2D /* Pods-HCNImageBrowserExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCNImageBrowserExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCNImageBrowserExample/Pods-HCNImageBrowserExample.release.xcconfig"; sourceTree = "<group>"; };
 		9702B2721A47BCC627B80547 /* Pods-HCNImageBrowserExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCNImageBrowserExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCNImageBrowserExample/Pods-HCNImageBrowserExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CE74EEBE2C33F4D13C1BD687 /* libPods-HCNImageBrowserExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCNImageBrowserExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +139,8 @@
 		0128E35C1B7118A900EE181A /* HCNImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				014A92821B78F7570072E883 /* UIImage+Addition.h */,
+				014A92831B78F7570072E883 /* UIImage+Addition.m */,
 				0128E35D1B7118A900EE181A /* HCNImageContainer.h */,
 				0128E35E1B7118A900EE181A /* HCNImageContainer.m */,
 				0128E35F1B7118A900EE181A /* HCNPhotoView.h */,
@@ -302,6 +307,7 @@
 				0128E3611B7118A900EE181A /* HCNImageContainer.m in Sources */,
 				0128E33C1B71187500EE181A /* AppDelegate.m in Sources */,
 				0128E3391B71187500EE181A /* main.m in Sources */,
+				014A92841B78F7570072E883 /* UIImage+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

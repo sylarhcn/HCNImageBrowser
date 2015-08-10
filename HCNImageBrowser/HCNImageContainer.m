@@ -7,7 +7,7 @@
 //
 
 #import "HCNImageContainer.h"
-//#import "UIImage+Addition.h"
+#import "UIImage+Addition.h"
 #import <SDImageCache.h>
 #import <UIImageView+WebCache.h>
 #import <SVProgressHUD.h>
@@ -153,8 +153,10 @@
     rect.origin = CGPointMake(0, 0);
     _scrollView.frame = rect;
     _scrollView.contentSize = rect.size;
-    _imageView.size = [UIImage scaleSizeOfImage:_imageView.image
-                                     fitMaxSize:frame.size];
+    CGRect imgRect = _imageView.frame;
+    imgRect.size = [UIImage scaleSizeOfImage:_imageView.image
+                                  fitMaxSize:frame.size];
+    _imageView.frame = imgRect;
     _imageView.center = CGPointMake(rect.size.width/2, rect.size.height/2);
     _indicator.center = _imageView.center;
 }
