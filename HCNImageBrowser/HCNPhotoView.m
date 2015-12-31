@@ -131,7 +131,7 @@
         }
         UIImageView *animationView = [[UIImageView alloc] initWithFrame:self.currentImageView.imageView.frame];
         animationView.image = self.currentImageView.imageView.image;
-
+        sourceView.hidden = YES;
         [self.view.window addSubview:animationView];
         [UIView animateWithDuration:kAnimationDuration
                          animations:^{
@@ -139,6 +139,7 @@
                          }
                          completion:^(BOOL finished) {
                              [animationView removeFromSuperview];
+                             sourceView.hidden = NO;
                          }];
     } else {
         [self fadeOutAnimation];

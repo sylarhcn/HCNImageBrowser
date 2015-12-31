@@ -77,6 +77,7 @@
 		0128E32A1B71187500EE181A = {
 			isa = PBXGroup;
 			children = (
+				0128E35C1B7118A900EE181A /* HCNImageBrowser */,
 				0128E3351B71187500EE181A /* HCNImageBrowserExample */,
 				0128E34F1B71187600EE181A /* HCNImageBrowserExampleTests */,
 				0128E3341B71187500EE181A /* Products */,
@@ -97,7 +98,6 @@
 		0128E3351B71187500EE181A /* HCNImageBrowserExample */ = {
 			isa = PBXGroup;
 			children = (
-				0128E35C1B7118A900EE181A /* HCNImageBrowser */,
 				0128E33A1B71187500EE181A /* AppDelegate.h */,
 				0128E33B1B71187500EE181A /* AppDelegate.m */,
 				0128E33D1B71187500EE181A /* ViewController.h */,
@@ -147,7 +147,7 @@
 				0128E3601B7118A900EE181A /* HCNPhotoView.m */,
 			);
 			name = HCNImageBrowser;
-			path = ../../HCNImageBrowser;
+			path = ../HCNImageBrowser;
 			sourceTree = "<group>";
 		};
 		5058558D959B124F8EB11753 /* Pods */ = {
